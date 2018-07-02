@@ -1,0 +1,36 @@
+{
+  "name": "ae-react-components",
+  "version": "1.0.0",
+  "description": "A select element that does not rely on native select html5 element and is highly flexible",
+  "main": "index.js",
+  "scripts": {
+    "build-production": "webpack --mode production",
+    "build": "webpack --watch --mode development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/solo800/ae-react-components.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/solo800/ae-react-components/issues"
+  },
+  "homepage": "https://github.com/solo800/ae-react-components#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "webpack": "^4.14.0",
+    "webpack-cli": "^3.0.8"
+  },
+  "dependencies": {
+    "styled-components": "^3.3.3"
+  }
+}

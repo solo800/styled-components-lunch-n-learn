@@ -14,17 +14,16 @@ const buttonBouncy = keyframes`
 `;
 
 const ButtonCon = styled.div`
-  // display: flex;
-  ${flex('column')}
+  display: flex;
   align-items: center;
-  ${bg}
+  background-color: ${props => props.theme.primary};
   height: 2.5rem;
   z-index: 1;
   overflow: hidden;
   animation: ${props => props.animation ? `${props.animation} 2s infinite ease-in-out` : ''};
 
   button {
-    color: #FFFFFF;
+    color: ${props => props.theme.accent};
     background-color: ${buttonColor};
     border-radius: 50%;
     padding: 1.5rem;

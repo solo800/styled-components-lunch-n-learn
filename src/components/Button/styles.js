@@ -8,6 +8,7 @@ const ButtonCon = styled.div`
   height: 2.5rem;
   z-index: 1;
   overflow: hidden;
+  animation: ${props => props.animation ? `${props.animation} 2s infinite ease-in-out` : ''};
 
   button {
     color: #FFFFFF;

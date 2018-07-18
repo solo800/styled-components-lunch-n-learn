@@ -1,7 +1,7 @@
 {
-  "name": "ae-react-components",
+  "name": "styled-components-lunch-n-learn",
   "version": "1.0.0",
-  "description": "A select element that does not rely on native select html5 element and is highly flexible",
+  "description": "A lunch and learn training on styled components.",
   "main": "index.js",
   "scripts": {
     "build-production": "webpack --mode production",
@@ -9,15 +9,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/solo800/ae-react-components.git"
+    "url": "git+https://github.com/solo800/styled-components-lunch-n-learn"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/solo800/ae-react-components/issues"
+    "url": ""
   },
-  "homepage": "https://github.com/solo800/ae-react-components#readme",
+  "homepage": "",
   "devDependencies": {
     "babel-core": "^6.26.3",
     "babel-loader": "^7.1.4",

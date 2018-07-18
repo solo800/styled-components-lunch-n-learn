@@ -1,2 +1,2 @@
-# react-select-component
-A select element that does not rely on native select html5 element and is highly flexible
+# styled-components-lunch-n-learn
+Marketo Marketing Dev Team learning about styled components library for React

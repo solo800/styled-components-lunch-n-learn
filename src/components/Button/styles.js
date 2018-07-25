@@ -1,5 +1,4 @@
 import styled, {keyframes} from 'styled-components';
-import {flex, bg} from '../mixins';
 
 const buttonColor = 'rgb(236, 72, 59)';
 
@@ -14,10 +13,8 @@ const buttonBouncy = keyframes`
 `;
 
 const ButtonCon = styled.div`
-  // display: flex;
-  ${flex('column')}
+  display: flex;
   align-items: center;
-  ${bg}
   height: 2.5rem;
   z-index: 1;
   overflow: hidden;
